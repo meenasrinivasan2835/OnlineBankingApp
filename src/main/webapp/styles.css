@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>UserLoginServlet</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.mains.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>OBankingapp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AdminLoginServlet</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.mains.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegisterUserServlet</display-name>
+    <servlet-name>RegisterUserServlet</servlet-name>
+    <servlet-class>com.mains.RegisterUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterUserServlet</servlet-name>
+    <url-pattern>/RegisterUserServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
